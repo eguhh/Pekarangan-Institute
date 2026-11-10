@@ -1,0 +1,15 @@
+# File konfigurasi lokal
+includes/config.php
+config.php
+
+# Berkas kunci kredensial Google Service Account & Cache Token
+*service-account*.json
+*firebase*.json
+*.json.key
+includes/.fb_token_cache.json
+kunci-firebase.json
+includes/kunci-firebase.json
+
+# Berkas unggahan dinamis (pertahankan folder)
+uploads/*
+!uploads/.gitkeep
